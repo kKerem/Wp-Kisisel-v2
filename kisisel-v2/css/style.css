@@ -1,0 +1,39 @@
+body {
+    /* padding: 1rem !important; */
+    padding-top: 0 !important;
+}
+
+.logo {
+    box-sizing: border-box;
+}
+.logo img {
+    max-width: 16px;
+}
+
+nav.bg-transparent {
+    background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 30%, #ffffff),-webkit-linear-gradient(20deg, #dbedff 32%, #ebfff0);
+}
+
+nav form input[type="search"] {
+    font-size: 90% !important;
+}
+nav form button {
+    width: 0 !important;
+}
+@media (max-width: 425px) {
+    .margin_alt:first-child {
+        margin-bottom: 1rem !important;
+    }
+}
+
+a.btn-sm,a.btn {
+    text-decoration: none !important;
+    transition: .2s;
+}
+
+.card.flex-md-row.shadow, .card-deck .card {
+    transition: .3s;
+}
+.card.flex-md-row.shadow:hover, .card-deck .card:hover {
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.25) !important;
+}

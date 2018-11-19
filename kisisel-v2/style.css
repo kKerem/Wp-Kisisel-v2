@@ -1,0 +1,102 @@
+/*
+	Theme Name: kKerem Kişisel Tema
+	Theme URI: https://kkerem.com
+	Description: kKerem.com için tema
+	Version: 2.0
+	Author: Kerem
+	Author URI: https://kkerem.com
+	Tags: Kerem
+
+	License: MIT
+*/
+
+body {
+    /* padding: 1rem !important; */
+    padding-top: 0 !important;
+}
+
+.logo {
+    box-sizing: border-box;
+    transition: .2s;
+}
+.logo img {
+    max-width: 16px;
+}
+
+.navbar-nav a {
+    outline: none !important;
+}
+
+nav.bg-transparent {
+    background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 30%, #ffffff),-webkit-linear-gradient(20deg, #dbedff 32%, #ebfff0);
+}
+
+nav form input[type="search"] {
+    font-size: 90% !important;
+}
+nav form button {
+    width: 0 !important;
+}
+@media (max-width: 425px) {
+    .margin_alt {
+        margin-bottom: 1rem !important;
+    }
+    .margin_alt:last-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+a.btn-sm,a.btn {
+    text-decoration: none !important;
+    transition: .2s;
+}
+
+.card.flex-md-row.shadow-sm, .card-deck .card {
+    transition: .3s;
+}
+.card.flex-md-row.shadow-sm:hover, .card-deck .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.linkdegil {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.min-width-20 {
+    display: inline-block !important;
+    min-width: 20px !important;
+}
+
+.maksimumgorsel {
+    height: 500px;
+}
+body.single-post .card img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    max-height: -webkit-fill-available;
+}
+body.single-post .card-deck .card img {
+    box-shadow: none !important;
+}
+body.single-post .card img.size-full {
+  margin: 0.5rem 0 !important
+}
+
+body.single-post .card img.shadow-0 {
+  box-shadow: none !important;
+}
+body.single-post .card pre {
+  white-space: pre-wrap;
+  background: #fbfbfb;
+  border: 1px solid #dfdfdf;
+  border-radius: .25rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.aligncenter {
+  display: table;
+  margin: 0 auto;
+}
